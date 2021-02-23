@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.slider-container{
+    max-width: 50%;
+    height:auto;
+    margin: 0 auto;
+    margin-top:9%;
+    position: relative;
+}
+.slider-container img{
+    width:100%;
+}
+.left-arrow{
+    position: absolute;
+    top: 50%;
+}
+.left-arrow i,
+.right-arrow i
+{
+    background: rgba(0, 0, 0,0.69);
+    font-size: 26px;
+    color: white;
+    padding: 7px 14px;
+    cursor: pointer;
+}
+.right-arrow{
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
